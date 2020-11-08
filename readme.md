@@ -2,7 +2,7 @@
 
 # Lab | LOD expressions
 
-In this lab you will continue working with the same Tableau workbook from the last lab (lab for 6.2). As a quick reminder, you were using `abTesting.csv` as well as `case_study_ab_test` files. If you need to give them one more look, you can find them attached in the 6.2 lab - top N analysis.
+In this lab you will continue working with the same Tableau workbook from the last lab (lab for 6.2). As a quick reminder, you were using `abTesting.csv` as well as `case_study_ab_test.md` files. If you need to give one more look to the case study file, you can find it in the `files_for_lab/case_study_ab_test.md`.
 
 ### Instructions
 
