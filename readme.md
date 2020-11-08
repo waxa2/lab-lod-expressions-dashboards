@@ -8,15 +8,13 @@ In this lab you will continue working with the same Tableau workbook from the la
 
 - In this next plot, we want to analyze the customers from `group 1` (from the age groups we made from the column `clnt_age`). The objective is to find and filter out those participants where the account balance is less than the group average. Follow these steps:
 
-  - Create a calculated field with LOD expression as
-    { FIXED [clnt_age (group)] : AVG([Bal])}
-  - Create another calculated field to store the difference between the avegare balance for the group and balance for the individual as
-    { FIXED [clnt_age (group)]: AVG([Bal])} - [Bal]
-  - Add `Client_IDs` to the rows. Filter out all the clients other than `group_1`
-  - Add average balance for each client
-  - Arrange the data in an ascending order of balance
-  - Add the calculated field with the LOD expression
-  - Add the calculated field with the difference
-  - Add filter for the difference values to select only positive values (ie cases where the individual balance is less than the average balance for the group)
+  - Create a calculated field with LOD expression as `FIXED [clnt_age (group)] : AVG([Bal])`.
+  - Create another calculated field to store the difference between the average balance for the group and balance for the individual as `FIXED [clnt_age (group)]: AVG([Bal])} - [Bal]`.
+  - Add `Client_IDs` to the rows. Filter out all the clients other than `group_1`.
+  - Add average balance for each client.
+  - Arrange the data in an ascending order of balance.
+  - Add the calculated field with the LOD expression.
+  - Add the calculated field with the difference.
+  - Add filter for the difference values to select only positive values (ie cases where the individual balance is less than the average balance for the group).
 
 - You have plots from the previous lab. Use those plots to create an interactive dashboard for the users
