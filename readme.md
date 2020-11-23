@@ -1,6 +1,6 @@
 ![logo_ironhack_blue 7](https://user-images.githubusercontent.com/23629340/40541063-a07a0a8a-601a-11e8-91b5-2f13e4e6b441.png)
 
-# Lab | LOD expressions
+# Lab | LOD expressions and Dashboards
 
 In this lab you will continue working with the same Tableau workbook from the last lab (lab for 6.2). As a quick reminder, you were using `abTesting.csv` as well as `case_study_ab_test.md` files. If you need to give one more look to the case study file, you can find it in the `files_for_lab/case_study_ab_test.md`.
 
